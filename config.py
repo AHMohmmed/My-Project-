@@ -13,8 +13,8 @@ SEARCH_BUTTON_COLOR = "#0068E5"  # Background color for the search button
 SEARCH_BUTTON_TEXT_COLOR = "#FFFFFF"  # Text color for the search button
 
 # Customizable image settings
-DEFAULT_BACKGROUND_IMAGE = "assets/background.png"  # Path to the default background image
-SEARCH_ICON_IMAGE = "assets/search_icon.png"  # Path to the search button icon
+DEFAULT_BACKGROUND_IMAGE = "background.png"  # Path to the default background image
+SEARCH_ICON_IMAGE = "search_icon.png"  # Path to the search button icon
 
 # Customizable text settings for the weather info box
 INFO_TEXT_COLOR = "#000000"  # Text color for the weather info box
@@ -22,3 +22,4 @@ INFO_BORDER_THICKNESS = 3  # Thickness of the border for the weather info box
 
 # Default city setting
 DEFAULT_CITY = "Chicago"  # Default city to show when the app starts (can be changed by user)
+
