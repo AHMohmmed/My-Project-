@@ -100,7 +100,7 @@ def show_default_info():
 app = tk.Tk()  # Create the main window
 app.title("Weather Info")  # Set the window title
 app.geometry("500x400")  # Set the window size
-app.iconbitmap("assets/weather.ico") # Set the window icon
+app.iconbitmap("weather.ico") # Set the window icon
 
 # Set up the background label (initialize it here)
 bg_label = tk.Label(app)
@@ -141,3 +141,4 @@ footer_label.place(x=0, y=375, relwidth=1, height=25)  # Footer at the bottom of
 show_default_info()  # Display weather info for the default city when the app loads
 
 app.mainloop()  # Run the main event loop to keep the window open
+
